@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNM: Juego</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#"> <pre class="logo">
+
+            ░▒▓█▓▒░░▒▓█▓▒░░▒▓███████▓▒░ ░▒▓██████████████▓▒░               ░▒▓████████▓▒░░▒▓█▓▒░              ░▒▓██████▓▒░░▒▓████████▓▒░░▒▓███████▓▒░  ░▒▓██████▓▒░       ░▒▓█▓▒░        ░▒▓██████▓▒░ ░▒▓███████▓▒░  ░▒▓██████▓▒░  
+            ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓██▓▒░      ░▒▓█▓▒░       ░▒▓█▓▒░             ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░    ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░       ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
+            ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓██▓▒░      ░▒▓█▓▒░       ░▒▓█▓▒░             ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░    ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░       ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
+            ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░              ░▒▓██████▓▒░  ░▒▓█▓▒░             ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░    ░▒▓███████▓▒░ ░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░       ░▒▓████████▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
+            ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓██▓▒░      ░▒▓█▓▒░       ░▒▓█▓▒░             ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░    ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░       ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
+            ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓██▓▒░      ░▒▓█▓▒░       ░▒▓█▓▒░             ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░    ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░       ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
+             ░▒▓██████▓▒░ ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░              ░▒▓████████▓▒░░▒▓████████▓▒░       ░▒▓██████▓▒░   ░▒▓█▓▒░    ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓██████▓▒░       ░▒▓████████▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓███████▓▒░  ░▒▓██████▓▒░  
+                                                                                                                                                                                                                                    
+            </pre></a>
+        <button class="menu-toggle">&#9776;</button> 
+        <!-- aca creamos el boton de hamburguesa,con su clase y los caracteres raros son lit las 3 liñitas -->
+        <ul class="nav-links">
+            <li><a href="mujeres.html">Mujeres/Historia</a></li>
+            <li><a href="artespiritual.html">ART-Espiritual</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="#">juego</a></li>
+            <li><a href="desarrollador.html">Desarrollador(a)</a></li> 
+        </ul>
+    </nav>
+
+    <hr>
+<main>
+    <h1>JUga No seas GAYS<3! </h1>
+                
+</main>
+ <!-- Footer -->
+<footer>
+    <div class="contenedor-footer">
+    <p>Email:<a href="mailto:iaravelazquezalvarez@gmail.com">iaravelazquezalvarez@gmail.com</a></p>
+ </div>
+     </footer>
+     <script src="js/juego.js"></script>
+</body>
+</html>
