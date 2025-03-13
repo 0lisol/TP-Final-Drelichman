@@ -15,7 +15,6 @@ labels[5].style.backgroundColor="white";
 labels[7].style.backgroundColor="white";
 
 seleccionada.parentNode.style.backgroundColor=" rgb(178, 255, 178)";//doy el color a la opción seleccionada
-
 }
 
 function corregir(){//función que compara los arreglos para saber cuantas acertaron
